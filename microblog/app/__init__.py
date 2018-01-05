@@ -1,0 +1,12 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Jan  4 16:54:48 2018
+
+@author: tbilir
+"""
+
+from flask import Flask
+
+app = Flask(__name__)
+
+from app import routes

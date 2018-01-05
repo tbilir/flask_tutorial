@@ -1,0 +1,14 @@
+#Ignore build binaries
+bin/
+
+#Microsoft Backup Files
+~$*.xlsx
+~$*.docx
+
+#Python
+*.pyc
+*.pyd
+*/__pycache__/*
+*.swp
+tags
+.coverage
